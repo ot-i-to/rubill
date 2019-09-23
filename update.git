@@ -1,0 +1,4 @@
+#!/bin/sh
+info=`date +%s`
+git add -A
+git commit -m "$info"
